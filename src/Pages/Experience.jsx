@@ -12,11 +12,11 @@ const Experience = () => {
         <div className={'experience'}>
             <Typography variant={"h2"} display={"grid"} justifyContent={"center"} mb={"4rem"}>My Experience</Typography>
 
-            <divd className={"expDiv"}>
+            <div className={"expDiv"}>
                 <ExpCard/>
                 <ExpCard/>
                 <ExpCard/>
-            </divd>
+            </div>
 
         </div>
     );
