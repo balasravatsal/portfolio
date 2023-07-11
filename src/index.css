@@ -18,7 +18,7 @@ span{
   color: #3A86FF;
 }
 
-
+/*        main             */
 main{
   margin: 6rem 1rem;
   padding: 1rem;
@@ -34,6 +34,55 @@ main{
     width: 50vw;
   }
 }
+
+
+/*        experience       */
+.experience{
+  margin: 6rem 6rem 0 6rem;
+  padding: 0 3rem 3rem 3rem;
+  /*border: 1px solid rgb(58, 134, 255);*/
+  height: 100%;
+
+}
+
+
+.expCard:hover {
+  transform: translateY(-16px);
+}
+
+.expCard{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+
+  background: hsla(280, 84%, 41%, 1);
+  background: linear-gradient(45deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+  background: -moz-linear-gradient(45deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8711c1", endColorstr="#2472fc", GradientType=1 );
+}
+.expDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 900px) {
+  .experience{
+    margin: 6rem 1rem;
+    padding: 1rem;
+  }
+  .expCard{
+    margin-bottom: 3rem;
+    padding: 1rem;
+  }
+  .expDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
 
 
 
